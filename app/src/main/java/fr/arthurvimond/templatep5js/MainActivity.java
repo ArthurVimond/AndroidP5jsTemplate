@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         webView.addJavascriptInterface(jsInterface, "Android");
 
         // Load index.html into WebView
-        webView.loadUrl("file:///android_asset/index.html");
+        webView.loadUrl("file:///android_asset/p5js/index.html");
 
     }
 
