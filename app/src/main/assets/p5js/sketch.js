@@ -13,6 +13,7 @@ function setup() {
 
     // Create fullscreen canvas
     var canvas = createCanvas(windowWidth, windowHeight);
+    canvas.parent('p5Container');
 
 }
 
