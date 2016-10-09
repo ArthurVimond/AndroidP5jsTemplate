@@ -35,7 +35,7 @@ function draw() {
 
     // Draw a circle for each finger on screen
   	for (var i = 0; i < touches.length; i++) {
-		ellipse(touches[i].x, touches[i].y, 100, 100);	  
+		ellipse(touches[i].x, touches[i].y, 100, 100);
   	}
 
     // Set shape property for texts
@@ -62,6 +62,10 @@ function touchMoved() {
 
 function touchEnded() {
     //println("touchEnded");
+}
+
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
 }
 
 // Call Java function
